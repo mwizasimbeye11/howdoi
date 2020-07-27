@@ -492,7 +492,6 @@ def command_line_runner():
             _print_ok('Cache cleared successfully')
         else:
             _print_err('Clearing cache failed')
-        return
 
     if not args['query']:
         parser.print_help()
